@@ -68,12 +68,15 @@ a:active {
 }
 
 
+.dark-area {
+  background-color: rgb(60, 59, 59);
+  padding: 64px;  
+}
 
 
 /* About me */
 .about-me {
-  background-color: rgb(60, 59, 59);
-  padding: 64px;  
+  margin-bottom: 120px;
 }
 
 /* 全部h1のcssが同じなら共通にしてもいいかも */
@@ -91,8 +94,7 @@ a:active {
 
 /* works */
 .works {
-  background-color: rgb(60, 59, 59);
-  padding: 64px;  
+  margin-bottom: 120px;
 }
 
 /* 全部h1のcssが同じなら共通にしてもいいかも */
@@ -126,4 +128,17 @@ a:active {
 
 .works .works-area .card img {
   width: 100%;
+}
+
+
+/* skills */
+.skills {
+  margin-bottom: 120px;
+}
+
+/* 全部h1のcssが同じなら共通にしてもいいかも */
+.skills h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 32px;
 }
