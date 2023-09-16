@@ -42,7 +42,7 @@ a:active {
 
 
 .main-window {
-  width: 786px;
+  width: 100vw;
   color: white;
 }
 
@@ -51,7 +51,6 @@ a:active {
   background-image: url("./town.jpg");
   background-size: cover;
   height: 100vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,4 +63,23 @@ a:active {
   line-height: 1.25;
   margin-bottom: 8px;
   line-height: 120px;
+}
+
+.about-me {
+  background-color: rgb(60, 59, 59);
+  padding: 64px;  
+}
+
+.about-me h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.about-me p {
+  margin-bottom: 32px;
+}
+
+.about-me .sns {
+  
 }
