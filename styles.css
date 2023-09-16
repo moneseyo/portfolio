@@ -46,8 +46,10 @@ a:active {
   color: white;
 }
 
-.hero-header {
 
+
+/* ヒーローヘッダー */
+.hero-header {
   background-image: url("./town.jpg");
   background-size: cover;
   height: 100vh;
@@ -65,11 +67,16 @@ a:active {
   line-height: 120px;
 }
 
+
+
+
+/* About me */
 .about-me {
   background-color: rgb(60, 59, 59);
   padding: 64px;  
 }
 
+/* 全部h1のcssが同じなら共通にしてもいいかも */
 .about-me h1 {
   font-size: 40px;
   font-weight: bold;
@@ -80,6 +87,43 @@ a:active {
   margin-bottom: 32px;
 }
 
-.about-me .sns {
-  
+
+
+/* works */
+.works {
+  background-color: rgb(60, 59, 59);
+  padding: 64px;  
+}
+
+/* 全部h1のcssが同じなら共通にしてもいいかも */
+.works h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+
+.works .works-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.works .works-area .card .text-section {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.works .works-area .card .title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.works .works-area .card img {
+  width: 100%;
 }
