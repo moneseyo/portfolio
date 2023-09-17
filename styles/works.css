@@ -8,3 +8,32 @@ header h2 {
   font-size: 24px;
   font-weight: bold;
 }
+
+.dark-area {
+  background-color: rgb(60, 59, 59);
+  padding: 128px;  
+  color: white
+}
+
+.abstract {
+  margin-bottom: 120px;
+}
+
+.abstract h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.abstract p {
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.image {
+  margin-bottom: 120px;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+}
