@@ -1,0 +1,93 @@
+header {
+  background-color: black;
+  padding: 32px;
+}
+
+header a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dark-area {
+  background-color: rgb(60, 59, 59);
+  padding: 128px;  
+  color: white
+}
+
+
+
+/* 作品の概要 */
+.abstract {
+  margin-bottom: 120px;
+}
+
+.abstract h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.abstract p {
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+
+
+/* 作品の画像 */
+.image {
+  margin-bottom: 120px;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+
+/* 作品の詳細 */
+.detail {
+  margin-bottom: 120px;
+}
+
+.detail .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 120px;
+  width: 100%;
+  gap: 56px;
+}
+
+.detail .image-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.detail .image-area img {
+  width: 100%;
+}
+
+.detail .text-area h2 {
+  margin-bottom: 12px;  
+}
+
+.detail .text-area p {
+  line-height: 32px;
+  margin-bottom: 24px;  
+}
+
+
+
+/* 所管 */
+.thoughts {
+  margin-bottom: 120px;
+}
+
+
+.thoughts p {
+  line-height: 32px;
+  margin-bottom: 24px;  
+}
