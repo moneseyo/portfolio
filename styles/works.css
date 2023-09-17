@@ -33,6 +33,7 @@ header h2 {
 }
 
 
+
 /* 作品の画像 */
 .image {
   margin-bottom: 120px;
@@ -42,6 +43,7 @@ header h2 {
   width: 100%;
   object-fit: cover;
 }
+
 
 
 /* 作品の詳細 */
@@ -73,6 +75,19 @@ header h2 {
 }
 
 .detail .text-area p {
+  line-height: 32px;
+  margin-bottom: 24px;  
+}
+
+
+
+/* 所管 */
+.thoughts {
+  margin-bottom: 120px;
+}
+
+
+.thoughts p {
   line-height: 32px;
   margin-bottom: 24px;  
 }
